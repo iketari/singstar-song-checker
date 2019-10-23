@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* BASE STYLES */
 body {
   background: #eceff1;
@@ -87,4 +88,8 @@ ul {
 
 .search-container {
   border: 2px solid rgb(10, 54, 105);
+=======
+h1 {
+  font-size: 40px;
+>>>>>>> 8eb3bb1eb680d6d809b9621e34ce8f68d86588de
 }
