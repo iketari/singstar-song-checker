@@ -1,6 +1,6 @@
 /* BASE STYLES */
 body {
-  background: #eceff1;
+  background: #fff;
   color: rgba(0, 0, 0, 0.87);
   font-family: Roboto, Helvetica, Arial, sans-serif;
   margin: 0;
@@ -77,6 +77,20 @@ button {
   margin: 40px;
 }
 
+/* RESULTS BOX */
+ul {
+  list-style: none;
+}
+.results-container {
+  border: 2px solid #20448e;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
 /* FOOTER */
 footer {
   width: 100%;
@@ -86,8 +100,4 @@ footer {
   padding: 0 20px;
   margin: 200px auto;
   text-align: center;
-}
-
-ul {
-  list-style: none;
 }
