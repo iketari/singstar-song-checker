@@ -84,3 +84,7 @@ footer {
 ul {
   list-style: none;
 }
+
+.search-container {
+  border: 2px solid rgb(10, 54, 105);
+}
