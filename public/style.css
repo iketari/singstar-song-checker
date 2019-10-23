@@ -91,13 +91,26 @@ ul {
   border-radius: 10px;
 }
 
+.results-left {
+  margin: 15%;
+}
+
+.results-right {
+  margin: 15%;
+}
+
 /* FOOTER */
 footer {
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
-  margin: 200px auto;
+  text-align: center;
+  background-color: #20448e;
+  /* padding: 64px 0 0; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
   text-align: center;
 }
