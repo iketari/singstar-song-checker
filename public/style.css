@@ -58,6 +58,7 @@ h1 {
 h2 {
   font-size: 35px;
   color: #ff4337;
+  padding-left: 35px;
 }
 /* SEARCH BAR */
 .search-container {
@@ -117,6 +118,13 @@ ul {
   box-shadow: 0px 0px 17px 2px rgba(219, 219, 219, 1);
 }
 
+@media only screen and (min-width: 600px) and (max-device-width: 1024px) {
+  .results-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .results-left {
   margin: 10%;
 }
@@ -127,6 +135,12 @@ ul {
 
 .result {
   border-radius: 10px;
+}
+@media only screen and (min-width: 600px) and (max-device-width: 1024px) {
+  .result {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* FOOTER */
